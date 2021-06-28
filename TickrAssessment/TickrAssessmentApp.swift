@@ -8,13 +8,13 @@
 import SwiftUI
 
 @main
-struct TickrAssessmentApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct TickerAssessmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            CoordinatorView(object: CoordinatorObject())
         }
     }
 }
+
+
+
