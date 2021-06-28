@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A34CDA9268A4FB100A72870 /* TickrAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34CDA8268A4FB100A72870 /* TickrAssessmentApp.swift */; };
+		9A34CDAB268A4FB100A72870 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34CDAA268A4FB100A72870 /* ContentView.swift */; };
+		9A34CDAD268A4FB300A72870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A34CDAC268A4FB300A72870 /* Assets.xcassets */; };
+		9A34CDB0268A4FB300A72870 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A34CDAF268A4FB300A72870 /* Preview Assets.xcassets */; };
+		9A34CDB2268A4FB300A72870 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34CDB1268A4FB300A72870 /* Persistence.swift */; };
+		9A34CDB5268A4FB300A72870 /* TickrAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A34CDB3268A4FB300A72870 /* TickrAssessment.xcdatamodeld */; };
+		9A34CDC0268A4FB300A72870 /* TickrAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34CDBF268A4FB300A72870 /* TickrAssessmentTests.swift */; };
+		9A34CDCB268A4FB400A72870 /* TickrAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34CDCA268A4FB400A72870 /* TickrAssessmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A34CDBC268A4FB300A72870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A34CD9D268A4FB100A72870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A34CDA4268A4FB100A72870;
+			remoteInfo = TickrAssessment;
+		};
+		9A34CDC7268A4FB400A72870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A34CD9D268A4FB100A72870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A34CDA4268A4FB100A72870;
+			remoteInfo = TickrAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A34CDA5268A4FB100A72870 /* TickrAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickrAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A34CDA8268A4FB100A72870 /* TickrAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickrAssessmentApp.swift; sourceTree = "<group>"; };
+		9A34CDAA268A4FB100A72870 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A34CDAC268A4FB300A72870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A34CDAF268A4FB300A72870 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A34CDB1268A4FB300A72870 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9A34CDB4268A4FB300A72870 /* TickrAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TickrAssessment.xcdatamodel; sourceTree = "<group>"; };
+		9A34CDB6268A4FB300A72870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A34CDBB268A4FB300A72870 /* TickrAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickrAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A34CDBF268A4FB300A72870 /* TickrAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickrAssessmentTests.swift; sourceTree = "<group>"; };
+		9A34CDC1268A4FB300A72870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A34CDC6268A4FB400A72870 /* TickrAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickrAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A34CDCA268A4FB400A72870 /* TickrAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickrAssessmentUITests.swift; sourceTree = "<group>"; };
+		9A34CDCC268A4FB400A72870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A34CDA2268A4FB100A72870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A34CDB8268A4FB300A72870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A34CDC3268A4FB400A72870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A34CD9C268A4FB100A72870 = {
+			isa = PBXGroup;
+			children = (
+				9A34CDA7268A4FB100A72870 /* TickrAssessment */,
+				9A34CDBE268A4FB300A72870 /* TickrAssessmentTests */,
+				9A34CDC9268A4FB400A72870 /* TickrAssessmentUITests */,
+				9A34CDA6268A4FB100A72870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A34CDA6268A4FB100A72870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A34CDA5268A4FB100A72870 /* TickrAssessment.app */,
+				9A34CDBB268A4FB300A72870 /* TickrAssessmentTests.xctest */,
+				9A34CDC6268A4FB400A72870 /* TickrAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A34CDA7268A4FB100A72870 /* TickrAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				9A34CDA8268A4FB100A72870 /* TickrAssessmentApp.swift */,
+				9A34CDAA268A4FB100A72870 /* ContentView.swift */,
+				9A34CDAC268A4FB300A72870 /* Assets.xcassets */,
+				9A34CDB1268A4FB300A72870 /* Persistence.swift */,
+				9A34CDB6268A4FB300A72870 /* Info.plist */,
+				9A34CDB3268A4FB300A72870 /* TickrAssessment.xcdatamodeld */,
+				9A34CDAE268A4FB300A72870 /* Preview Content */,
+			);
+			path = TickrAssessment;
+			sourceTree = "<group>";
+		};
+		9A34CDAE268A4FB300A72870 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A34CDAF268A4FB300A72870 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A34CDBE268A4FB300A72870 /* TickrAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A34CDBF268A4FB300A72870 /* TickrAssessmentTests.swift */,
+				9A34CDC1268A4FB300A72870 /* Info.plist */,
+			);
+			path = TickrAssessmentTests;
+			sourceTree = "<group>";
+		};
+		9A34CDC9268A4FB400A72870 /* TickrAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A34CDCA268A4FB400A72870 /* TickrAssessmentUITests.swift */,
+				9A34CDCC268A4FB400A72870 /* Info.plist */,
+			);
+			path = TickrAssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A34CDA4268A4FB100A72870 /* TickrAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A34CDCF268A4FB400A72870 /* Build configuration list for PBXNativeTarget "TickrAssessment" */;
+			buildPhases = (
+				9A34CDA1268A4FB100A72870 /* Sources */,
+				9A34CDA2268A4FB100A72870 /* Frameworks */,
+				9A34CDA3268A4FB100A72870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickrAssessment;
+			productName = TickrAssessment;
+			productReference = 9A34CDA5268A4FB100A72870 /* TickrAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A34CDBA268A4FB300A72870 /* TickrAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A34CDD2268A4FB400A72870 /* Build configuration list for PBXNativeTarget "TickrAssessmentTests" */;
+			buildPhases = (
+				9A34CDB7268A4FB300A72870 /* Sources */,
+				9A34CDB8268A4FB300A72870 /* Frameworks */,
+				9A34CDB9268A4FB300A72870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A34CDBD268A4FB300A72870 /* PBXTargetDependency */,
+			);
+			name = TickrAssessmentTests;
+			productName = TickrAssessmentTests;
+			productReference = 9A34CDBB268A4FB300A72870 /* TickrAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A34CDC5268A4FB400A72870 /* TickrAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A34CDD5268A4FB400A72870 /* Build configuration list for PBXNativeTarget "TickrAssessmentUITests" */;
+			buildPhases = (
+				9A34CDC2268A4FB400A72870 /* Sources */,
+				9A34CDC3268A4FB400A72870 /* Frameworks */,
+				9A34CDC4268A4FB400A72870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A34CDC8268A4FB400A72870 /* PBXTargetDependency */,
+			);
+			name = TickrAssessmentUITests;
+			productName = TickrAssessmentUITests;
+			productReference = 9A34CDC6268A4FB400A72870 /* TickrAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A34CD9D268A4FB100A72870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9A34CDA4268A4FB100A72870 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9A34CDBA268A4FB300A72870 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9A34CDA4268A4FB100A72870;
+					};
+					9A34CDC5268A4FB400A72870 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9A34CDA4268A4FB100A72870;
+					};
+				};
+			};
+			buildConfigurationList = 9A34CDA0268A4FB100A72870 /* Build configuration list for PBXProject "TickrAssessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A34CD9C268A4FB100A72870;
+			productRefGroup = 9A34CDA6268A4FB100A72870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A34CDA4268A4FB100A72870 /* TickrAssessment */,
+				9A34CDBA268A4FB300A72870 /* TickrAssessmentTests */,
+				9A34CDC5268A4FB400A72870 /* TickrAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A34CDA3268A4FB100A72870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A34CDB0268A4FB300A72870 /* Preview Assets.xcassets in Resources */,
+				9A34CDAD268A4FB300A72870 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A34CDB9268A4FB300A72870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A34CDC4268A4FB400A72870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A34CDA1268A4FB100A72870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A34CDB2268A4FB300A72870 /* Persistence.swift in Sources */,
+				9A34CDAB268A4FB100A72870 /* ContentView.swift in Sources */,
+				9A34CDA9268A4FB100A72870 /* TickrAssessmentApp.swift in Sources */,
+				9A34CDB5268A4FB300A72870 /* TickrAssessment.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A34CDB7268A4FB300A72870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A34CDC0268A4FB300A72870 /* TickrAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A34CDC2268A4FB400A72870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A34CDCB268A4FB400A72870 /* TickrAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A34CDBD268A4FB300A72870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A34CDA4268A4FB100A72870 /* TickrAssessment */;
+			targetProxy = 9A34CDBC268A4FB300A72870 /* PBXContainerItemProxy */;
+		};
+		9A34CDC8268A4FB400A72870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A34CDA4268A4FB100A72870 /* TickrAssessment */;
+			targetProxy = 9A34CDC7268A4FB400A72870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A34CDCD268A4FB400A72870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A34CDCE268A4FB400A72870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A34CDD0268A4FB400A72870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TickrAssessment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TickrAssessment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PNP.TickrAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A34CDD1268A4FB400A72870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TickrAssessment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TickrAssessment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PNP.TickrAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A34CDD3268A4FB400A72870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickrAssessmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PNP.TickrAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickrAssessment.app/TickrAssessment";
+			};
+			name = Debug;
+		};
+		9A34CDD4268A4FB400A72870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickrAssessmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PNP.TickrAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickrAssessment.app/TickrAssessment";
+			};
+			name = Release;
+		};
+		9A34CDD6268A4FB400A72870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickrAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PNP.TickrAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TickrAssessment;
+			};
+			name = Debug;
+		};
+		9A34CDD7268A4FB400A72870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickrAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PNP.TickrAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TickrAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A34CDA0268A4FB100A72870 /* Build configuration list for PBXProject "TickrAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A34CDCD268A4FB400A72870 /* Debug */,
+				9A34CDCE268A4FB400A72870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A34CDCF268A4FB400A72870 /* Build configuration list for PBXNativeTarget "TickrAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A34CDD0268A4FB400A72870 /* Debug */,
+				9A34CDD1268A4FB400A72870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A34CDD2268A4FB400A72870 /* Build configuration list for PBXNativeTarget "TickrAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A34CDD3268A4FB400A72870 /* Debug */,
+				9A34CDD4268A4FB400A72870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A34CDD5268A4FB400A72870 /* Build configuration list for PBXNativeTarget "TickrAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A34CDD6268A4FB400A72870 /* Debug */,
+				9A34CDD7268A4FB400A72870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A34CDB3268A4FB300A72870 /* TickrAssessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A34CDB4268A4FB300A72870 /* TickrAssessment.xcdatamodel */,
+			);
+			currentVersion = 9A34CDB4268A4FB300A72870 /* TickrAssessment.xcdatamodel */;
+			path = TickrAssessment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A34CD9D268A4FB100A72870 /* Project object */;
+}
